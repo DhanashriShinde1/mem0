@@ -6,7 +6,7 @@ from mem0 import Memory
 @pytest.fixture
 def memory_store():
     return Memory()
-
+# print("Hello")
 
 def test_create_memory(memory_store):
     data = "Name is John Doe."
